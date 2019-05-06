@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(img/abstract-tribal-background-png714-41e4-9345-07efd2ad87a5.png);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.contact-title{
+	margin-top: 100px;
+	text-transform: uppercase;
+	transition: all 3s ease-in-out;
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+.contact-title h2{
+	font-size: 16px;
+}
+form{
+	margin-top: 50px;
+	transition: all 3s ease-in-out;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #efe073;
+	color:#030303;
+	font-size: 21px;
+	margin-bottom: 40px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background: #ed5180;
+	border-color: transparent;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
